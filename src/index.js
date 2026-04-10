@@ -297,7 +297,7 @@ io.on('connection', (socket) => {
 async function start() {
     await connectDB();
     httpServer.listen(PORT, () => {
-        console.log(`🚀 BOMB CHAOS server running on http://localhost:${PORT}`);
+        console.log(` BOMB CHAOS server running on http://localhost:${PORT}`);
     });
 }
 
