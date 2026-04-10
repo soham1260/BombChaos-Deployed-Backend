@@ -151,7 +151,7 @@ export class GameState {
         const dt = 1 / 60; // seconds per tick
         // Player hit-box half-width in pixels.
         // 35% of TILE_SIZE gives a small gap so players can pass through gaps cleanly.
-        const RADIUS = Math.floor(TILE_SIZE * 0.50);
+        const RADIUS = Math.floor(TILE_SIZE * 0.35);
 
         for (const [id, move] of playerMoves) {
             const player = this.players.get(id);
